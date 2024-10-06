@@ -1,0 +1,23 @@
+.logo {
+  width: 290px;
+  height: 80px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 50%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .logo {
+    width: 60%;
+  }
+}
+
+.cardDiv {
+  padding: 15px;
+}
+
